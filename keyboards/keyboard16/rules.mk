@@ -1,0 +1,10 @@
+CUSTOM_MATRIX = lite
+
+VPATH += drivers/gpio
+SRC += matrix.c 
+I2C_DRIVER_REQUIRED = no
+
+MCU_LDSCRIPT = STM32F303xB
+RGB_MATRIX_ENABLE = no
+
+DEFERRED_EXEC_ENABLE = yes
